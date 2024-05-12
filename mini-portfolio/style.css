@@ -124,10 +124,11 @@ button:hover{
     gap:10em;
 }
 .container{
+    background-color: #000000;
     display: flex;
     border-radius: 20px;
-    box-shadow: 0 0 25px #99ff33,
-                0 0 50px #99ff33;
+    box-shadow: 0 0 50px #99ff33,
+                0 0 90px #001100;
 }
 .about-content{
     align-items: center;
@@ -146,18 +147,49 @@ html {
 }
 .contact-container{
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
+    background-color: #000000;
+}
+.maintext{
+    text-align: center;
+    font-size: 36px;
+    padding-top: 200px;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+.contact-form{
+    max-width: 50em;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+}
+.contact-form input{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.submit{
+    background-color: black;
+    color: #ffffff;
+}
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 1.1em;
+    font-size: 16px;
     color: #ffffff;
     background-color: #000000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 12% 8%;
-    gap:10em;
+    border-radius: 14px;
+    margin: 25px 0;
+    box-shadow: 0 0 10px #99ff33,
+                0 0 90px #001100;
 }
-.contact-container form{
+div.social{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    padding: 40px 0;
     text-align: center;
-    max-width: 50rem;
-    margin: 1rem auto;
-    margin-bottom: 3rem;
+    padding-top: 40px;
+    color: #ffffff;
 }
