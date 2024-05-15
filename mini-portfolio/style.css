@@ -45,8 +45,7 @@ span{
     border-bottom: 2px solid transparent;
     transition: 0.5s;
 }
-.navbar a:hover,
-.navbar a.home{
+.navbar a:hover{
     color: #8ae231;
     border-bottom: 2px solid #8ae231;
 }
@@ -172,7 +171,7 @@ html {
     flex-wrap: wrap;
 }
 .submit{
-    background-color: #99ff33;
+    background-color: #ffffff;
     color: #000000;
 }
 .contact-form input,
@@ -205,4 +204,46 @@ div.social a{
     box-shadow: 0 0 10px #99ff33,
                 0 0 90px #001100;
     margin: 0 20px;
+}
+.project{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #99ff33,
+                0 0 90px #001100;
+    padding: 50px;
+    margin: 100px 100px;
+}
+.card h3{
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+.card p{
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+.card a{
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #99ff33,
+                0 0 90px #001100;
+    color: #000000;
+    background-color: #ffffff;
+    font-style: italic;
+    font-size: 13px;
+}
+.card a:hover{
+    background-color: black;
+    color: #ffffff;
+    box-shadow: 0 0 10px #99ff33,
+                0 0 90px #001100;
 }
